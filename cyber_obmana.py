@@ -20,7 +20,6 @@ CHAR_SPACE = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890_-/'
 # Sys i random su potrebni za pozivanje sistemskih komandi i generisanja IMENA nasumicnih linkova
 import sys
 import random 
-#import BaseHTTPServer
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import time
 
